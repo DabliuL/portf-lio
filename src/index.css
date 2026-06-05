@@ -379,6 +379,10 @@ h1 strong {
     --tech-color: #f7df1e;
     --tech-color-rgb: 247, 223, 30;
 }
+.skill-card[data-tech="react"] {
+    --tech-color: #61daf4;
+    --tech-color-rgb: 97, 218, 244;
+}
 .skill-card[data-tech="python"] {
     --tech-color: #3776ab;
     --tech-color-rgb: 55, 118, 171;

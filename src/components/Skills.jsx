@@ -29,6 +29,18 @@ const skillsData = [
     )
   },
   {
+    tech: 'react',
+    name: 'React.js',
+    icon: (
+      <svg viewBox="-11.5 -10.23 23 20.46" width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1">
+        <circle cx="0" cy="0" r="2" fill="currentColor"/>
+        <ellipse rx="11" ry="4.2"/>
+        <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+        <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+      </svg>
+    )
+  },
+  {
     tech: 'python',
     name: 'Python',
     icon: (
