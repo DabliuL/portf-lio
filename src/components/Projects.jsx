@@ -38,7 +38,7 @@ export default function Projects() {
 
   return (
     <section id="my-projects" className="fourth-section">
-      <h2 className="title">Meus projetos</h2>
+      <h2 className="title">Meus Projetos no GitHub</h2>
       <p className="section-desc">Projetos públicos integrados dinamicamente com o meu GitHub</p>
       
       {loading && (

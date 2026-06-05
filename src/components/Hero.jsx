@@ -54,7 +54,7 @@ export default function Hero() {
       </div>
       <div className="box-img-main">
         <div className="profile-glow-ring">
-          <img className="img-profile" src="/images/perfil.png" alt="Wesley Gabriel - Perfil" />
+          <img className="img-profile" src="images/perfil.png" alt="Wesley Gabriel - Perfil" />
         </div>
       </div>
     </section>

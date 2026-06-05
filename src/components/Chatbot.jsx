@@ -162,7 +162,7 @@ export default function Chatbot() {
         <div className="chat-header">
           <div className="chat-avatar-status">
             <div className="chat-avatar-wrapper">
-              <img src="/images/perfil.png" alt="Wesley Gabriel" />
+              <img src="images/perfil.png" alt="Wesley Gabriel" />
               <span className="status-indicator online"></span>
             </div>
             <div className="chat-user-info">
