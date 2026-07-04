@@ -7,6 +7,7 @@ export default function Header() {
       <nav>
         <a href="#experiences" className="nav-links">Experiências</a>
         <a href="#who-am-i" className="nav-links">Quem sou</a>
+        <a href="#finished-sites" className="nav-links">Sites Finalizados</a>
         <a href="#my-projects" className="nav-links">Meus Projetos no GitHub</a>
         <a href="#contact" className="nav-links">Contato</a>
       </nav>

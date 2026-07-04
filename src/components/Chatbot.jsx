@@ -58,7 +58,8 @@ export default function Chatbot() {
 
   const showMainMenu = () => {
     setOptions([
-      { text: "📂 Ver Projetos", value: "projects" },
+      { text: "🌐 Sites Finalizados", value: "websites" },
+      { text: "📂 Projetos GitHub", value: "projects" },
       { text: "🛠️ Habilidades", value: "skills" },
       { text: "💬 Contato Direto", value: "contact" }
     ]);
@@ -86,6 +87,28 @@ export default function Chatbot() {
               setIsTyping(false);
               addBotMessage("Aqui estão os meus principais repositórios sincronizados em tempo real com o GitHub!");
               setOptions([
+                { text: "🌐 Sites Finalizados", value: "websites" },
+                { text: "🛠️ Ver Habilidades", value: "skills" },
+                { text: "💬 Falar com Wesley", value: "contact_wa" },
+                { text: "🏠 Menu Principal", value: "menu" }
+              ]);
+            }, 1000);
+          }, 1000);
+          break;
+
+        case "websites":
+          addBotMessage("Legal! Vou te levar para a seção dos sites que já estão finalizados e publicados em produção.");
+          setTimeout(() => {
+            const websitesSection = document.getElementById('finished-sites');
+            if (websitesSection) {
+              websitesSection.scrollIntoView({ behavior: 'smooth' });
+            }
+            setIsTyping(true);
+            setTimeout(() => {
+              setIsTyping(false);
+              addBotMessage("Esses sites foram desenvolvidos e otimizados para clientes reais e projetos pessoais.");
+              setOptions([
+                { text: "📂 Projetos GitHub", value: "projects" },
                 { text: "🛠️ Ver Habilidades", value: "skills" },
                 { text: "💬 Falar com Wesley", value: "contact_wa" },
                 { text: "🏠 Menu Principal", value: "menu" }
@@ -102,7 +125,8 @@ export default function Chatbot() {
               setIsTyping(false);
               addBotMessage("Também tenho foco na criação de Chatbots de WhatsApp (como este que você está interagindo!) usando WhatsAppWeb.js.");
               setOptions([
-                { text: "📂 Ver Projetos", value: "projects" },
+                { text: "🌐 Sites Finalizados", value: "websites" },
+                { text: "📂 Projetos GitHub", value: "projects" },
                 { text: "💬 Falar com Wesley", value: "contact_wa" },
                 { text: "🏠 Menu Principal", value: "menu" }
               ]);
